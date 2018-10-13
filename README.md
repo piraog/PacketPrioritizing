@@ -2,12 +2,12 @@ This is a simple simulation to compare different strategies to route packets wit
 The algorithms implemented are described in « Scheduling for Emergency Tasks in Industrial Wireless Sensor Networks », Changqing Xia, Xi Jin, Linghe Kong and Peng Zeng 2017.
 
 To run this simulation you will need:
-	- Python 3.X
-	- Numpy for your python installation
+-	Python 3.X
+-	Numpy for your python installation
 
 The simulation is split in 2 files:
-	- Network.py that contains the class network (for graph generation)
-	- Simulation.py that contains the class Simulation and import Network (for the end simulation)
+- 	Network.py that contains the class network (for graph generation)
+- 	Simulation.py that contains the class Simulation and import Network (for the end simulation)
 
 To see how the networks are generated, running Network.py will display a graph and all it's attributes
 You can modify the graph's parameters by modifying the call on the Network class line 201
